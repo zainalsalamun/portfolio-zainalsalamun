@@ -10,6 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -24,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Php, Java Android, Kotlin, Javascript and Dart. </b>
               </i>
               <br />
               <br />
@@ -43,12 +44,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Flutter, Android And web developer 
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, Flutter, Android</b>
               </i>
             </p>
           </Col>
@@ -77,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/zainalsalamun"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/zainal-salamun-660a9598/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/zainalsalamun"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
