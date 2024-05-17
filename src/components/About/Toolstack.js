@@ -16,28 +16,28 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiMacos color="#000000" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiUbuntu />
+        <DiUbuntu color="#000000" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiWindows />
+        <DiWindows color="#000000" />
       </Col>  
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode color="#007ACC" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiPostman color="#F44336" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
+        <SiAndroidstudio color="#A8B9CC" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiVercel color="#1DB954" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXcode />
+        <SiXcode color="#007ACC" />
       </Col>
       
     </Row>

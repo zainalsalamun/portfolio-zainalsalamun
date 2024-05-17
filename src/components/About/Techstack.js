@@ -26,40 +26,40 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       {/* <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <CgCPlusPlus color="#009688" />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 color="#FFD700" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlutter />
+        <SiFlutter color="#4285F4" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiNodejs color="#339933" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact color="#61DAFB" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAndroid />
+        <DiAndroid color="#3DDC84" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <DiMysql color="#00758F" />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiNextdotjs color="#222" />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit color="#e34c26" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiFirebase color="#F8E231" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiPostgresql color="#4169E1" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiJava color="#B00000" />
       </Col>
     </Row>
   );
