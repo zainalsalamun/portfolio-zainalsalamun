@@ -22,7 +22,7 @@ function Toolstack() {
         <DiUbuntu color="#000000" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiWindows color="#000000" />
+        <DiWindows color="#007ACC" />
       </Col>  
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode color="#007ACC" />
@@ -31,7 +31,7 @@ function Toolstack() {
         <SiPostman color="#F44336" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio color="#A8B9CC" />
+        <SiAndroidstudio color="#3DDC84" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel color="#1DB954" />
