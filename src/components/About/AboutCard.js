@@ -18,11 +18,16 @@ function AboutCard() {
             I have completed Informatika Engineering at STMIK Akakom.
             <br />
             <br />
+            As an experienced Android and Flutter developer with over 7 years of experience in an IT consultant company, I have a strong foundation in Object-Oriented Programming and problem-solving skills.
+            I am enthusiastic about implementing SOLID principles which can make the process of developing and maintaining code more efficient and reduce boilerplate codes.
+            I have the capability to either develop an Android app from scratch or re-design the architecture to be more maintainable and scalable.
+            <br />
+            <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Gym, running
+              <ImPointRight /> Futsal, Football, running
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading books
@@ -41,5 +46,4 @@ function AboutCard() {
     </Card>
   );
 }
-
 export default AboutCard;
