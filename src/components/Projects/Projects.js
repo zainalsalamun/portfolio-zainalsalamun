@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-//import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import ocbc from "../../Assets/Projects/ocbc/ocbc.jpeg";
 import ViewProjects from "./ViewProjects";
 import pos from "../../Assets/Projects/pos/pos1.jpeg";
@@ -31,7 +25,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ocbc}
-              isBlog={false}
+              // isBlog={false}
               title="Ocbc"
               description="Merchant App Ocbc Saat ini Yokke sudah memiliki YokkeBiz yaitu layanan POS yang telah digunakan oleh Middle
               Enterprise. Untuk dapat menjangkau dan memenuhi kebutuhan market pada segmentasi

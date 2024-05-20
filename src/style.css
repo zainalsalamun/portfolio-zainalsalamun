@@ -145,7 +145,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #6b6f87 !important;
+    background-color: #1b3e5e !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -195,7 +195,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #686869;
+  background: #303640;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -576,7 +576,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(215, 201, 221, 0.883) !important;
+  border: 2.2px solid rgba(201, 209, 221, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
