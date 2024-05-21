@@ -38,9 +38,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "#fff" }}>
-            "Work hard play hard"{" "}
+            "Stay hungry stay foolish"{" "}
           </p>
-          <footer className="blockquote-footer">Zainal Salamun</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>
