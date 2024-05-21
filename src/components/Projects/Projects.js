@@ -9,6 +9,13 @@ import ezyhr from "../../Assets/Projects/ezyhr/ezyhr1.jpeg";
 import pertamedika from "../../Assets/Projects/pertamedika/pertamedika.jpeg";
 import puskesmasbgr from "../../Assets/Projects/puskesmasbogor/puskesmasbogor2.jpeg";
 import dokter from "../../Assets/Projects/etc/dokterapp.jpeg";
+import catatanapps from "../../Assets/Projects/etc/catatanapps.jpeg";
+import firebasechat from "../../Assets/Projects/etc/firebasechat.jpeg";
+import movieapp from "../../Assets/Projects/etc/movieapp.jpeg";
+import salamubank from "../../Assets/Projects/etc/salamubank.jpeg";
+import ecommerce from "../../Assets/Projects/etc/ecommerce.jpeg";
+import todoapp from "../../Assets/Projects/etc/todoapp.jpeg";
+import movieapp2 from "../../Assets/Projects/etc/movieapp2.jpeg";
 
 function Projects() {
   return (
@@ -89,6 +96,85 @@ function Projects() {
               description="Aplikasi digunakan untuk dokter melihat pasien yang reservasi sesuai jadwal dokter yang tersedia dan bisa update jadwal dokter"
               //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={catatanapps}
+              isBlog={false}
+              title="Catatan Pulsa Apps"
+              description="Aplikasi untuk mencatat pembelian pulsa menggunakan android native bahasa pemrograman java android "
+              // ghLink="https://github.com/soumyajit4419/Color-Changer"
+              // demoLink="https://color-changer.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={firebasechat}
+              isBlog={false}
+              title="Firebase Chat"
+              description="Aplikasi chat dibuat menggunakan android native java dan menggunakan fitur realtime chat dari firebase"
+              // ghLink="https://github.com/soumyajit4419/Realtime-Object-Detection"
+              // demoLink="https://realtime-object-detection.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movieapp}
+              isBlog={false}
+              title="Movie App"
+              description="Aplikasi untuk mencari film dan melihat detail film dibuat menggunakan android native dan kotlin sebagai bahasa pemrogramannya"
+              // ghLink="https://github.com/soumyajit4419/Realtime-Object-Detection"
+              // demoLink="https://realtime-object-detection.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={salamubank}
+              isBlog={false}
+              title="UI Bank App"
+              description="Slicing UI Aplikasi untuk perbankan belum integrasi dengan API"
+               ghLink="https://github.com/zainalsalamun/bank_salamu_master"
+               //demoLink="https://github.com/zainalsalamun/bank_salamu_master"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="Flutter UI Ecommerce"
+              description="Aplikasi Ecommerce dibuat menggunakan flutter dengan bahasa pemrograman dart, menggunakan fitur login dan register, menampilkan produk, fitur checkout dan simpan ke database, menggunakan state management provider"
+               ghLink="https://github.com/zainalsalamun/shoes_project"
+               //demoLink="https://github.com/zainalsalamun/bank_salamu_master"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todoapp}
+              isBlog={false}
+              title="Flutter Todo App"
+              description="Aplikasi Todo App dibuat menggunakan flutter dengan bahasa pemrograman dart menggunakan database sqflite sebagai lokal database"
+               ghLink="https://github.com/zainalsalamun/flutter_todoapp"
+               //demoLink="https://github.com/zainalsalamun/bank_salamu_master"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movieapp2}
+              isBlog={false}
+              title="Flutter Movie App"
+              description="Aplikasi Movie App dibuat menggunakan framework flutter dengan bahasa pemrograman dart "
+               ghLink="https://github.com/zainalsalamun/movie_app_screen"
+               //demoLink="https://github.com/zainalsalamun/bank_salamu_master"
             />
           </Col>
         </Row>
