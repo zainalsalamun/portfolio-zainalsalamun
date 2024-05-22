@@ -16,6 +16,8 @@ import salamubank from "../../Assets/Projects/etc/salamubank.jpeg";
 import ecommerce from "../../Assets/Projects/etc/ecommerce.jpeg";
 import todoapp from "../../Assets/Projects/etc/todoapp.jpeg";
 import movieapp2 from "../../Assets/Projects/etc/movieapp2.jpeg";
+import ekatalog from "../../Assets/Projects/etc/ekatalogshowroom.jpeg";
+import revampflashcoffe from "../../Assets/Projects/etc/revampflashcoffe.jpeg";
 
 function Projects() {
   return (
@@ -175,6 +177,25 @@ function Projects() {
               description="Aplikasi Movie App dibuat menggunakan framework flutter dengan bahasa pemrograman dart "
                ghLink="https://github.com/zainalsalamun/movie_app_screen"
                //demoLink="https://github.com/zainalsalamun/bank_salamu_master"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ekatalog}
+              //isBlog={false}
+              title="Deck Presentation Aplikasi Ekatalog Showroom Mobile"
+              description="Deck Presentation ini tugas akhir dari kolaborasi dengan tim dari komintas FUGI(Flutter user group indonesia) sebagai belajar cara membuat dan mengembangkan produk  "
+              demoLink="https://media.licdn.com/dms/document/media/D561FAQHTzgvWk7r3Dw/feedshare-document-pdf-analyzed/0/1697457662114?e=1717027200&v=beta&t=CLphrD_rD2qzpcVmOWCnBnt2WmcIdIG1ywosICNVgqI"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={revampflashcoffe}
+              //isBlog={false}
+              title="Deck Presentation Aplikasi Revamp Flash Coffee"
+              description="Deck Presentation ini tugas akhir dari bootcamp Product Management dari Binar Academy sebagai PM kita berkolaborasi dengan Tim UI UX "
+               demoLink="https://www.behance.net/gallery/166689967/Revamp-Flash-Coffee-App-2023"
             />
           </Col>
         </Row>
