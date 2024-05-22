@@ -18,6 +18,7 @@ import todoapp from "../../Assets/Projects/etc/todoapp.jpeg";
 import movieapp2 from "../../Assets/Projects/etc/movieapp2.jpeg";
 import ekatalog from "../../Assets/Projects/etc/ekatalogshowroom.jpeg";
 import revampflashcoffe from "../../Assets/Projects/etc/revampflashcoffe.jpeg";
+import ikea from "../../Assets/Projects/etc/ikea.jpeg";
 
 function Projects() {
   return (
@@ -196,6 +197,16 @@ function Projects() {
               title="Deck Presentation Aplikasi Revamp Flash Coffee"
               description="Deck Presentation ini tugas akhir dari bootcamp Product Management dari Binar Academy sebagai PM kita berkolaborasi dengan Tim UI UX "
                demoLink="https://www.behance.net/gallery/166689967/Revamp-Flash-Coffee-App-2023"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ikea}
+              //isBlog={false}
+              title="Aplikasi Revamp Ikea Online Store"
+              description="Project akhir bootcamp Binar Academy Sebagai Fullstack Web Developer, Aplikasi ini dibagun menggunakan JavaScript ReactJs sebagai FrontEnd dan BackEnd menggunakan NodeJs ExpressJs  dan Postgresql sebagai database"
+               demoLink="https://binar-platinum-frontend.vercel.app"
+               ghLink="https://github.com/zainalsalamun/binar-platinum-frontend"
             />
           </Col>
         </Row>
